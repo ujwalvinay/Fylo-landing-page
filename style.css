@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*---------------- Header -------------------*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+#logo-img
+{
+    width:50%;
+}
+.items
+{
+    display: flex;
+}
+.items>*
+{
+    padding: 0 .5rem;
+
+    list-style: none;
+    text-decoration: none;   
+}
+.items a
+{
+    text-decoration: none;
+    color: black;
+}
+/*-----------------------banner 1-----------------------*/
+
+
+.banner1
+{
+    display: flex;
+    padding-top: 3em;
+    margin: 3em 3rem;
+    padding-bottom: 4rem;
+
+    
+}
+
+.banner1-img
+{
+    width: 80%;
+    
+}
+#banner1-img
+{
+    width: 100%;
+}
+h2{
+    width: 90%;
+    text-align: left;
+    font-size: 35px;
+
+    padding-bottom: 1.5rem;
+}
+p
+{
+    width: 80%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+h2,a,h3{
+    font-family: 'Raleway', sans-serif;
+}
+a
+{
+    font-weight: 700;
+}
+.search
+{
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+#text-field
+{
+    border: .5px solid black;
+    border-radius: 2px;
+
+    width: 15rem;
+    height: 2rem;
+    padding-left: 1rem;
+}
+#Get-started
+{
+    width: 10rem;
+    height: 2rem;
+    padding-left: ;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;    
+
+    background: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: none;
+
+    color: white;
+}
+
+/*-------------------.banner2---------------------*/
+
+.banner2
+{
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    background-color: hsl(240, 75%, 98%);
+}
+.banner2 h2
+{
+    width: 100%;
+}
+.banner2 p{
+    padding-bottom: 1rem;
+}
+.banner2-img
+{
+    width: 60%;
+}
+#banner2-img
+{
+    width: 100%;
+    margin-right: 3rem;
+}
+#work
+{
+    color: hsl(170, 45%, 43%);
+    
+}
+
+
+/*------------Testimony-section...................*/
+.testimony
+{
+    margin-top: 1rem;
+    width: 50%;
+    background: white;
+    border-radius: 10px;
+}
+.testimony>*
+{
+    padding: 0 1rem;
+}
+.testimony-id
+{
+    display: flex;
+    width: 100%;
+}
+#quotes-icon
+{
+    width: 7%;
+    padding-top: 20px;
+}
+#Testimony-avathar
+{
+    width: 10%;
+    height: fit-content;
+    border-radius: 50%;
+}
+#testimony-p
+{
+    font-size: 12px;
+}
+.name
+{
+    width: 80%;
+    padding-left: 1rem;
+}
+
+
+.footer-banner
+{
+    display: flex;
+    
+    padding: 4rem 0;
+    padding-left: 3rem;
+
+    background: hsl(238, 22%, 44%);
+}
+.text-data
+{
+    width: 50%;
+    color: white;
+}
+#email-field
+{
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    padding-left: 1rem;
+}
+#Get-email
+{
+    margin-top: 1rem;
+    color: white;
+    
+    height: 2rem;
+    width: 10rem;
+    background: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: none;
+}
